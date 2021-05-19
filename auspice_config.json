@@ -1,0 +1,64 @@
+{
+  "title": "Genomic epidemiology of SARS-CoV-2 in Peru",
+  "maintainers": [
+    {"name": "Laboratorio_de_Genomica_Microbiana_Pedro_Romero_pedro.romero@upch.pe", "url": "pedro.romero@upch.pe"}
+  ],
+  "build_url": "none",
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+	{
+      "key": "institution",
+      "title": "Institution",
+      "type": "categorical"
+    },
+    {
+      "key": "sex",
+      "title": "Gender",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "pangolin_lineage",
+      "title": "Lineage",
+      "type":"categorical"
+    },
+    {
+      "key":"GISAID_clade",
+      "title":"Clade",
+      "type":"categorical"
+    }
+
+  ],
+  "geo_resolutions": [
+    "division"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "division",
+	"GISAID_clade",
+    "sex",
+    "pangolin_lineage",
+	"institution"
+  ],
+  "panels": [
+	"tree",
+	"map",
+	"entropy",
+	"frequencies"
+]
+}
