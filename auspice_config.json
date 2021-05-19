@@ -27,7 +27,7 @@
     },
     {
       "key": "division",
-      "title": "Region",
+      "title": "Division",
       "type": "categorical"
     },
     {
