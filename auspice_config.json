@@ -16,7 +16,7 @@
       "type": "continuous"
     },
 	{
-      "key": "institution",
+      "key": "submitting_lab",
       "title": "Institution",
       "type": "categorical"
     },
@@ -53,7 +53,7 @@
 	"GISAID_clade",
     "sex",
     "pangolin_lineage",
-	"institution"
+	"submitting_lab"
   ],
   "panels": [
 	"tree",
